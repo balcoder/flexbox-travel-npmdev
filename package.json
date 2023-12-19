@@ -3,9 +3,9 @@
   "version": "1.1.0",
   "private": true,
   "scripts": {
-    "scss:dev": "sass assets/scss/style.scss assets/css/style.css",
+    "scss:dev": "sass assets/scss/main.scss assets/css/style.css",
     "js:dev": "concat -o assets/main.js assets/js/test1.js assets/js/test2.js",    
-    "scss": "sass assets/scss/style.scss dist/css/style.css",
+    "scss": "sass assets/scss/main.scss dist/css/style.css",
     "concat:css": "concat -o dist/css/styles.css dist/css/style.css assets/css/test.css",
     "concat:js": "mkdirp dist/js && concat -o dist/js/scripts.js assets/js/test1.js assets/js/test2.js ",
     "concat": "npm run concat:css && npm run concat:js",

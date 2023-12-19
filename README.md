@@ -1,6 +1,8 @@
-# NPM Scripts
+# Flexbox Web App
 
-This is a simple npm script based build tool to build simple web apps. It has some sample files and sass to test the build process.
+This is a demo travel agency page for a hotel built on flexbox
+
+## NPM Scripts
 
 To get up and running install the required packages:
 
