@@ -31,6 +31,7 @@ For Development run `npm run watch` , which
 
 For Production run `npm run build`, which
 
-1. Creates production ready css in dist/css
-2. Creates production ready js in dist/js
-3. Creates compressed images in dist/img
+1. Creates production ready css in dist/css (minified and autoprefixed)
+2. Creates production ready js in dist/js (minified)
+3. Creates compressed images in dist/img (compressed )
+4. Modifies index.html links to css and js in dist folder
